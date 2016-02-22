@@ -48,4 +48,4 @@ def get_gender(id_card_no):
     """
     sequence_code_len, sequence_code_start = 3, 14
     sequence_code = id_card_no[sequence_code_start, sequence_code_start + sequence_code_len]
-    return u'女' if int(sequence_code) % 2 == 0 else u'男'
+    return 'female' if int(sequence_code) % 2 == 0 else 'male'
