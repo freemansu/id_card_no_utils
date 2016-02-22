@@ -18,7 +18,6 @@ def check_id_card_no(id_card_no):
         and check_parity_bit(id_card_no)
 
 
-#
 def check_format(id_card_no):
     """
     check the format of id card number
